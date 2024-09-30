@@ -26,8 +26,7 @@ query {
 query {
   getProductsByName(name: "Product A") {
     id
-    name
-    description
+    n
     price
   }
 }
